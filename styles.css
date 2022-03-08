@@ -79,7 +79,8 @@ li {
 
 .submenu {
     text-align: center;
-    padding: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 
@@ -97,14 +98,20 @@ header {
     padding: 20px 15px;
 }
 
-ul {
+.icons {
     display: flex;
     margin: 0;
     gap: 17px;
 }
 
+.projectIcons {
+    display: flex;
+    margin: 0;
+    gap: 10px;
+}
+
 ul img {
-  height: 1.7rem;
+  height: 1.3rem;
 }
 
 .mainHome {
@@ -120,6 +127,34 @@ ul img {
     flex-direction: column;
 }
 
+.singleProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectImgs {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    gap: 3px;
+}
+
+.projectLinks img {
+    height: 1rem;
+}
+
+.projectDescription {
+    width: 40%;
+    font-size: 1.2em;
+}
 
 /*
 =============================================
@@ -164,6 +199,30 @@ MEDIA QUERY
     .rightie {
         display: none;
     }
+
+    .projectImgs {
+        width: 75%;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .projectLinks {
+        width: 65%;
+    }
+
+    .projectLinks img {
+        height: 1rem;
+    }
+
+    .projectDescription {
+        width: 65%;
+    }
+
+    .submenu {
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+    
 }
 
 @media all and (max-width: 747px) {
@@ -178,4 +237,23 @@ MEDIA QUERY
     .mainButtons {
         margin-top: 70px;
     }
+
+    .projectImgs {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .projectLinks {
+        width: 80%;
+    }
+
+    .projectLinks img {
+        height: .8rem;
+    }
+
+    .projectDescription {
+        width: 80%;
+    }
+
+  
 }

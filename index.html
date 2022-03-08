@@ -13,7 +13,12 @@
     <header>
         <nav>
             <a class="color2 homeButton small" href="index.html">FC</a>
-            <a class="color1 upperCase small" href="contact.html">Contact</a>
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a class="color1 upperCase small" href=""
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/franciscocasillas/30min'});return false;">Contact</a>
+            <!-- Calendly link widget end -->
         </nav>
         <ul class="icons">
             <li>
@@ -39,7 +44,7 @@
                 <span class="color2 lessSmall">Full Stack Web Developer & Illustrator</span>
                 <span class="color2 huge">Francisco</span>
                 <span class="color2 huge">Casillas</span>
-                <span class="color1 medium">I design websites</span>
+                <span class="color1 medium bottomText">I design websites</span>
                 <span class="color1 medium">& web applications.</span>
             </section>
             <section class="mainButtons">

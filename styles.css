@@ -38,9 +38,8 @@ li {
     color: white;
 }
 
-.activeLink {
+.color3 {
     color: rgb(243, 211, 67);
-    text-decoration: underline;
 }
 
 .homeButton {
@@ -260,6 +259,13 @@ MEDIA QUERY
 
     .projectDescription {
         width: 80%;
+    }
+
+    @media all and (max-width: 400px) {
+        .huge {
+            font-size: 6em;
+            line-height: 3.3rem;
+        }
     }
 
   

@@ -76,6 +76,15 @@ li {
     margin-left: -6px;
 }
 
+.notTooSmall {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
 .bottomText {
     margin-top: 3px;
 }
@@ -90,6 +99,9 @@ li {
     font-size: 1.5em;
 }
 
+.bold {
+    font-weight: 600;
+}
 
 /*
 =============================================
@@ -100,7 +112,7 @@ LAYOUT
 header {
     display: flex;
     justify-content: space-between;
-    height: 35px;
+    height: 20px;
     align-items: center;
     padding: 20px 15px;
 }
@@ -118,7 +130,7 @@ header {
 }
 
 ul img {
-  height: 1.3rem;
+  height: 1.1rem;
 }
 
 .mainHome {

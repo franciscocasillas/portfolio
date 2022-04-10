@@ -107,6 +107,54 @@ li {
     font-weight: 600;
 }
 
+.resumeSmall {
+    font-size: 1.2em;
+}
+
+.resumeHeader {
+    font-size: 1.4em;
+    line-height: .7em;
+}
+
+.resumeSubHeader {
+    font-size: 1em;
+    color: rgb(243, 211, 67);
+    line-height: .02em;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.resumeSections {
+    margin-bottom: 40px;
+}
+
+.resumeSubSections {
+    margin-bottom: 30px;
+}
+
+.resumeRecentProjects {
+    font-size: 1.2em;
+}
+
+.resumeJobs {
+    margin-top: .5em;
+    margin-bottom: .2em;
+    font-size: 1.2em;
+}
+
+.resumeDates {
+    font-size: 1.1em;
+    color: rgb(233, 198, 41);
+}
+
+.resumeCarrier {
+    margin-top: .5em;
+}
+
+.resumeUniversity {
+    font-size: 1em;
+}
+
 /*
 =============================================
 LAYOUT
@@ -189,6 +237,12 @@ ul img {
     margin: auto;
     width: 8.27in;
     height: 11.69in;
+    border: solid 1px black;
+    padding: 70px 100px;
+}
+
+.resumeHeader {
+    text-align: center;
 }
 
 /*

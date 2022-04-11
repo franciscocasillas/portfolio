@@ -118,7 +118,7 @@ li {
 
 .resumeSubHeader {
     font-size: 1em;
-    color: rgb(243, 211, 67);
+    color: #8ac926;
     line-height: .02em;
     margin-bottom: 40px;
     font-weight: 400;
@@ -144,7 +144,7 @@ li {
 
 .resumeDates {
     font-size: 1.1em;
-    color: rgb(233, 198, 41);
+    color: #eb555a;
 }
 
 .resumeCarrier {
@@ -153,6 +153,14 @@ li {
 
 .resumeUniversity {
     font-size: 1em;
+}
+
+.resumeLinks {
+    color: #6a4c93;
+}
+
+.resumeLinks:hover {
+    color: rgb(243, 211, 67);
 }
 
 /*

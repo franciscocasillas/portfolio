@@ -46,6 +46,22 @@ li {
     color: rgb(243, 211, 67);
 }
 
+.color4 {
+    color: #8ac926;
+}
+
+.color5 {
+    color: #eb555a;
+}
+
+.color6 {
+    color: rgb(222, 187, 34);
+}
+
+.color7 {
+    color: #1982c4;
+}
+
 .homeButton {
     background-color: rgb(38, 38, 38);
     padding: 8px;
@@ -118,7 +134,6 @@ li {
 
 .resumeSubHeader {
     font-size: 1em;
-    color: #8ac926;
     line-height: .02em;
     margin-bottom: 40px;
     font-weight: 400;
@@ -144,7 +159,6 @@ li {
 
 .resumeDates {
     font-size: 1.1em;
-    color: #eb555a;
 }
 
 .resumeCarrier {
